@@ -20,6 +20,10 @@ require('packer').startup(function(use)
 
       -- Useful status updates for LSP
       'j-hui/fidget.nvim',
+
+      -- Formatter and Linters
+      "jose-elias-alvarez/null-ls.nvim",
+      "jay-babu/mason-null-ls.nvim",
     },
   }
 
@@ -381,6 +385,15 @@ for _, lsp in ipairs(servers) do
     capabilities = capabilities,
   }
 end
+
+-- Setup null-ls
+local null_ls = require("null-ls")
+local sources = {
+  null_ls.builtins.formatting.shfmt.with({
+    extra_args = { "-i", "4", "-ci" },
+  }),
+}
+null_ls.setup({ sources = sources })
 
 -- Turn on lsp status information
 require('fidget').setup()
