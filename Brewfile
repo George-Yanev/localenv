@@ -13,6 +13,7 @@ brew "lesspipe"
 brew "pwgen"
 brew "zsh-completions"
 brew "stow"
+brew "entr"
 
 # ------------------------------------------------------------------------------
 # Taps
