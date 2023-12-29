@@ -23,8 +23,6 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-alias cat='bat --theme Dracula'
-
 ### Autocomplete
 
 # aws - probably rtx issue
@@ -37,3 +35,10 @@ if type brew &>/dev/null; then
   autoload -Uz compinit
   compinit
 fi
+
+# Exports
+export EDITOR=nvim
+
+# Aliases
+alias cat='bat --theme Dracula'
+
