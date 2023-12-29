@@ -38,6 +38,7 @@ fi
 
 # Exports
 export EDITOR=nvim
+export PATH=$HOME/bin:$PATH
 
 # Aliases
 alias cat='bat --theme Dracula'
