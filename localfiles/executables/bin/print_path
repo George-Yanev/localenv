@@ -1,3 +1,4 @@
-#!/usr/bin/env
+#!/usr/bin/env bash
 
-${PATH//:/"\n"}
+echo -e ${PATH//:/"\n"}
+

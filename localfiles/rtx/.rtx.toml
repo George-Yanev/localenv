@@ -11,6 +11,8 @@ zoxide = 'latest'
 starship = 'latest'
 fzf = 'latest'
 jq = 'latest'
+assh = 'latest'
+direnv = 'latest'
 
 [settings]
 verbose = true

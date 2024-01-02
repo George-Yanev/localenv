@@ -1,6 +1,5 @@
 brew "iterm2"
 brew "fzf"
-brew "direnv"
 brew "bat"
 brew "coreutils"
 brew "git"
@@ -14,6 +13,7 @@ brew "pwgen"
 brew "zsh-completions"
 brew "stow"
 brew "entr"
+brew "assh"
 
 # ------------------------------------------------------------------------------
 # Taps

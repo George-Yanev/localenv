@@ -1,7 +1,9 @@
 export ZSH="$HOME/.oh-my-zsh"
 
+# activate the rtx environment
 eval "$(rtx activate zsh)"
-eval "$(rtx env -s zsh)"
+# rtx activate will not update PATH until the shell prompt is displayed. Calling manually hook-env fix that
+eval "$(rtx hook-env)"
 
 ZSH_THEME="starship"
 plugins=(
@@ -39,6 +41,8 @@ fi
 # Exports
 export EDITOR=nvim
 export PATH=$HOME/bin:$PATH
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
 
 # Aliases
 alias cat='bat --theme Dracula'
