@@ -14,6 +14,7 @@ brew "zsh-completions"
 brew "stow"
 brew "entr"
 brew "assh"
+brew "gcal"
 
 # ------------------------------------------------------------------------------
 # Taps
