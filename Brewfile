@@ -1,4 +1,6 @@
+## Terminal packages
 brew "iterm2"
+brew "mise"
 brew "fzf"
 brew "bat"
 brew "coreutils"
@@ -15,6 +17,11 @@ brew "stow"
 brew "entr"
 brew "assh"
 brew "gcal"
+brew "neofetch"
+## MacOS packages
+# Copy/Paste buffer
+brew "messy"
+brew "rectangle"
 
 # ------------------------------------------------------------------------------
 # Taps
