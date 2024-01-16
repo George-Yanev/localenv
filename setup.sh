@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+set -o errexit
+set -o nounset
+set -o pipefail
+
 ### Variables
 SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
 
@@ -18,7 +22,7 @@ check_before_run
 cd "${SCRIPT_DIR}" || (echo -e "Error cd to ${SCRIPT_DIR}" && exit 1)
 
 echo "Install the packages from the Brewfile"
-brew install --file Brewfile
+brew bundle
 
 echo "Enable the packages you want to use by executing stow"
 echo "Example for enabling the zsh configuration"
