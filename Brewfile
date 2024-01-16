@@ -20,8 +20,12 @@ brew "gcal"
 brew "neofetch"
 ## MacOS packages
 # Copy/Paste buffer
-brew "messy"
+brew "maccy"
 brew "rectangle"
+brew "android-file-transfer"
+brew "keepassxc"
+brew "obsidian"
+brew "postman"
 
 # ------------------------------------------------------------------------------
 # Taps
