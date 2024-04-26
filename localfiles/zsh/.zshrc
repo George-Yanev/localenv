@@ -1,14 +1,18 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 # activate the rtx environment
-eval "$(rtx activate --status zsh)"
+eval "$(mise activate --status zsh)"
 # rtx activate will not update PATH until the shell prompt is displayed. Calling manually hook-env fix that
-eval "$(rtx hook-env)"
+eval "$(mise hook-env)"
+
+# eza plugin
+export EZA_ENABLE_SORT_ALIASES=1
+export EZA_ENABLE_EXTENDED_ALIASES=1
 
 ZSH_THEME="starship"
 plugins=(
   starship
-  rtx
+#  mise
   direnv
   git
   zoxide
