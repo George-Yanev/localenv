@@ -6,9 +6,6 @@ grpcurl = 'latest'
 shfmt = 'latest'
 shellcheck = '0.9.0'
 awscli = 'latest'
-fzf = 'latest'
-jq = 'latest'
-assh = 'latest'
 direnv = 'latest'
 
 [settings]

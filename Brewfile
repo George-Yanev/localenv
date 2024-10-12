@@ -21,6 +21,7 @@ brew "entr"
 brew "assh"
 brew "gcal"
 brew "neofetch"
+brew "jq"
 
 # ------------------------------------------------------------------------------
 # Taps
