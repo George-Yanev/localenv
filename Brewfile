@@ -3,8 +3,10 @@
 # ------------------------------------------------------------------------------
 brew "mise"
 brew "fzf"
+brew "ripgrep"
 brew "bat"
 brew "coreutils"
+brew "neovim"
 brew "git"
 brew "curl"
 brew "neofetch"

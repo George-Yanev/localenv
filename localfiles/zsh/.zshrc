@@ -15,16 +15,17 @@ plugins=(
 #  mise
   direnv
   git
-  zoxide
   eza
-  #battery
+  battery
   compleat
   #zsh-autocomplete
   fzf-tab
   zsh-autosuggestions
   zsh-syntax-highlighting
-  fast-syntax-highlighting
+  #fast-syntax-highlighting
   zsh-fzf-history-search
+  zsh-bat
+  z
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -49,5 +50,5 @@ export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
 # Aliases
-alias cat='bat --theme Dracula'
+alias cat='bat --theme zenburn'
 alias cal='gcal --starting-day=1'
