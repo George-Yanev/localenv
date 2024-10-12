@@ -4,9 +4,7 @@ python = { version = 'latest' }
 java = 'openjdk'
 grpcurl = 'latest'
 shfmt = 'latest'
-shellcheck = '0.9.0'
-awscli = 'latest'
-direnv = 'latest'
+shellcheck = 'latest'
 
 [settings]
 verbose = false

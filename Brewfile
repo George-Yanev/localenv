@@ -22,6 +22,9 @@ brew "assh"
 brew "gcal"
 brew "neofetch"
 brew "jq"
+brew "awscli"
+brew "direnv"
+brew "grpcurl"
 
 # ------------------------------------------------------------------------------
 # Taps
